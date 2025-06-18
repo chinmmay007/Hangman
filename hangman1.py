@@ -1,6 +1,8 @@
 import streamlit as st
 import random
 
+st.title("🎯 Hangman")
+
 # Initial Setup (only runs once)
 if 'word' not in st.session_state:
     st.session_state.words = {
